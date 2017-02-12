@@ -17,5 +17,6 @@
 //= require jquery.stellar
 //= jqBootstrapValidation
 //= freelancer
+
 //= contact_me
 //= require_tree .
