@@ -1,4 +1,5 @@
 source 'https://rubygems.org'
+ruby "2.3.0"
 
 git_source(:github) do |repo_name|
   repo_name = "#{repo_name}/#{repo_name}" unless repo_name.include?("/")
@@ -35,14 +36,6 @@ gem 'bootstrap-sass', '~> 3.3.6'
 
 
 
-group :development do
-  gem 'sqlite3'
-end
-
-
-group :production do
-  gem 'pg'
-end
 
 
 
