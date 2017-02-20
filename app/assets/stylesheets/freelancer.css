@@ -82,8 +82,7 @@ h4
   padding: 50px 0 0 0;
   background: no-repeat center center fixed;
   background-size: cover;
-  background-image: url("background2.jpg");
-  /*height: 855px;*/
+  background-image: url(image_path("background2.jpg"));
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -99,10 +98,7 @@ h4
   padding: 50px 0 0 0;
   background: no-repeat center center fixed;
   background-size: cover;
-  /*background-image: url("../app/assets/images/pencil.jpg");*/
-  background-image: url("light.jpg");
-
-  /*height: 855px;*/
+  background-image: url(image_path("light.jpg"));
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -119,9 +115,7 @@ h4
   padding: 50px 0 0 0;
   background: no-repeat center center fixed;
   background-size: cover;
-  /*background-image: url("../app/assets/images/white.jpg");*/
-  background-image: url("work.jpg");
-  /*height: 855px;*/
+  background-image: url(image_path("work.jpg"));
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -138,9 +132,7 @@ h4
   padding: 50px 0 0 0;
   background: no-repeat center center fixed;
   background-size: cover;
-  /*background-image: url("../app/assets/images/light.jpg");*/
-   background-image: url("light.jpg");
-
+   background-image: url(image_path("light.jpg"));
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -652,12 +644,21 @@ fieldset[disabled] .btn-success.active {
   display: none;
 }
 .carousel .left {
-  cursor: url("../app/assets/images/arrow-left.png"), url("../app/assets/images/arrow-left.cur"), default !important;
+  /*cursor: url("../app/assets/images/arrow-left.png"), url("../app/assets/images/arrow-left.cur"), default !important;*/
+  cursor: url (image_path("arrow-left.png"));
+
 
 }
 .carousel .right {
-  cursor: url("../app/assets/images/arrow-right.png"), url("../app/assets/images/arrow-right.cur"), default !important;
+  /*cursor: url("../app/assets/images/arrow-right.png"), url("../app/assets/images/arrow-right.cur"), default !important;*/
+  cursor: url (image_path("arrow-right.png"));
+
 }
+
+
+
+
+
 .carousel .carousel-indicators {
   bottom: 5px;
 }
