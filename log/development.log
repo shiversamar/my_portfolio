@@ -16538,3 +16538,68 @@ puma (3.7.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
   Rendering /Users/amarshivers/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb
   Rendered /Users/amarshivers/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.7ms)
   Rendered /Users/amarshivers/.rvm/gems/ruby-2.3.0/gems/actionpack-5.0.1/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (648.4ms)
+Started GET "/" for 127.0.0.1 at 2017-02-20 21:36:37 -0800
+Processing by PostController#index as HTML
+  Rendering post/index.html.erb within layouts/application
+Started GET "/" for 127.0.0.1 at 2017-02-20 21:36:38 -0800
+Processing by PostController#index as HTML
+  Rendering post/index.html.erb within layouts/application
+  Rendered partials/_header.html.erb (15156.1ms)
+  Rendered partials/_about.html.erb (0.6ms)
+  Rendered partials/_experience.html.erb (6.2ms)
+  Rendered partials/_header.html.erb (15524.6ms)
+  Rendered partials/_about.html.erb (0.5ms)
+  Rendered partials/_experience.html.erb (6.3ms)
+  Rendered partials/_portfolio.html.erb (39.3ms)
+  Rendered partials/_portfolio.html.erb (42.4ms)
+  Rendered partials/_skills.html.erb (0.5ms)
+  Rendered partials/_contact.html.erb (0.8ms)
+  Rendered post/index.html.erb within layouts/application (15294.4ms)
+  Rendered partials/_skills.html.erb (9.9ms)
+  Rendered partials/_contact.html.erb (0.7ms)
+  Rendered post/index.html.erb within layouts/application (15643.7ms)
+Completed 200 OK in 16559ms (Views: 16530.1ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 16160ms (Views: 16157.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-02-20 21:37:21 -0800
+Processing by PostController#index as HTML
+  Rendering post/index.html.erb within layouts/application
+  Rendered partials/_header.html.erb (33.9ms)
+  Rendered partials/_about.html.erb (1.0ms)
+  Rendered partials/_experience.html.erb (74.0ms)
+  Rendered partials/_portfolio.html.erb (747.9ms)
+  Rendered partials/_skills.html.erb (1.0ms)
+  Rendered partials/_contact.html.erb (1.5ms)
+  Rendered post/index.html.erb within layouts/application (901.9ms)
+Completed 200 OK in 1428ms (Views: 1392.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-02-21 06:45:51 -0800
+Processing by PostController#index as HTML
+  Rendering post/index.html.erb within layouts/application
+Started GET "/" for 127.0.0.1 at 2017-02-21 06:45:52 -0800
+Processing by PostController#index as HTML
+  Rendering post/index.html.erb within layouts/application
+  Rendered partials/_header.html.erb (255.7ms)
+  Rendered partials/_header.html.erb (520.4ms)
+  Rendered partials/_about.html.erb (0.7ms)
+  Rendered partials/_about.html.erb (0.6ms)
+  Rendered partials/_experience.html.erb (12.9ms)
+  Rendered partials/_experience.html.erb (12.4ms)
+  Rendered partials/_portfolio.html.erb (81.7ms)
+  Rendered partials/_skills.html.erb (0.8ms)
+  Rendered partials/_portfolio.html.erb (85.9ms)
+  Rendered partials/_skills.html.erb (1.0ms)
+  Rendered partials/_contact.html.erb (1.0ms)
+  Rendered post/index.html.erb within layouts/application (688.6ms)
+  Rendered partials/_contact.html.erb (0.9ms)
+  Rendered post/index.html.erb within layouts/application (407.1ms)
+Completed 200 OK in 700ms (Views: 625.1ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 980ms (Views: 950.3ms | ActiveRecord: 0.0ms)
+
+
